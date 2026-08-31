@@ -1,0 +1,30 @@
+.btn{
+    border-radius: 8px;
+    border: 2px solid var(--btn-bg-color);
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.btn:hover{
+    border-color: var(--btn-border-color);
+}
+
+.btn:focus,
+.btn:focus-visible{
+    outline: 4px auto black;
+}
+
+.btn:disabled{
+    opacity: .5;
+    pointer-events: none;
+}
+
+.active{
+    color: black;
+    background-color: rgb(213, 139, 0);
+}
