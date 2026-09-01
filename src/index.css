@@ -5,6 +5,8 @@
   --btn-bg-color: rgb(55, 55, 55);
   --btn-text-color: white;
   --btn-border-color: rgb(19, 19, 61);
+  --card-bg-color: rgba(255, 255, 255, 0.06);
+  --card-border-color:rgba(255, 255, 255, 0.1);
 }
 body{
   background-image: var(--main-bg-color);
@@ -31,14 +33,18 @@ a{
     --btn-bg-color: rgb(51, 0, 152);
     --btn-text-color: rgb(139, 255, 251);
     --btn-border-color: rgb(217, 192, 156);
+    --card-bg-color: rgba(255, 255, 255, 0.55);
+    --card-border-color:rgba(10, 10, 10, 0.185);
  }
 }
-@media(prefers-color-scheme: ligfht){
+@media(prefers-color-scheme: light){
  :root{
   --main-bg-color: radial-gradient(circle at 30% 20%, #1F2A44, #0B0E1A);
   --text-color:#fff;
   --btn-bg-color: rgb(55, 55, 55);
   --btn-text-color: white;
   --btn-border-color: rgb(19, 19, 61);
+  --card-bg-color:rgba(255, 255, 255, 0.06);
+  --card-border-color:rgba(255, 255, 255, 0.1);
  }
 }
